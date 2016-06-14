@@ -2,10 +2,9 @@
   "name": "my-app",
   "version": "1.0.0",
   "dependencies": {
-    "errors": {
-      "version": "1.0.0",
-      "from": "gitify-dependencies-test/errors#v1.0.0",
-      "resolved": "git://github.com/gitify-dependencies-test/errors.git#c10ed91c99a545466fe630447da649b7ec1705d3",
+    "gitify-dependencies-test-errors": {
+      "version": "1.0.1",
+      "from": "gitify-dependencies-test-errors@>=1.0.1 <2.0.0",
       "dependencies": {
         "xtend": {
           "version": "4.0.1",
@@ -14,72 +13,18 @@
         }
       }
     },
-    "schemas": {
-      "version": "1.0.0",
-      "from": "gitify-dependencies-test/schemas#v1.0.0",
-      "resolved": "git://github.com/gitify-dependencies-test/schemas.git#e19b61af6f42739e12f3ddd2346ed4829b69d3a3",
-      "dependencies": {
-        "errors": {
-          "version": "1.0.0",
-          "from": "gitify-dependencies-test/errors",
-          "resolved": "git://github.com/gitify-dependencies-test/errors.git#c10ed91c99a545466fe630447da649b7ec1705d3",
-          "dependencies": {
-            "xtend": {
-              "version": "4.0.1",
-              "from": "xtend@>=4.0.1 <5.0.0",
-              "resolved": "https://registry.npmjs.org/xtend/-/xtend-4.0.1.tgz"
-            }
-          }
-        },
-        "lodash": {
-          "version": "4.13.1",
-          "from": "lodash@>=4.13.1 <5.0.0",
-          "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.13.1.tgz"
-        }
-      }
+    "gitify-dependencies-test-schemas": {
+      "version": "1.0.1",
+      "from": "gitify-dependencies-test-schemas@>=1.0.1 <2.0.0"
     },
-    "validations": {
-      "version": "1.0.0",
-      "from": "gitify-dependencies-test/validations#v1.0.0",
-      "resolved": "git://github.com/gitify-dependencies-test/validations.git#cf4c07bd9e0a36d0082ffa9be2e6b060bf33883a",
-      "dependencies": {
-        "errors": {
-          "version": "1.0.0",
-          "from": "gitify-dependencies-test/errors",
-          "resolved": "git://github.com/gitify-dependencies-test/errors.git#c10ed91c99a545466fe630447da649b7ec1705d3",
-          "dependencies": {
-            "xtend": {
-              "version": "4.0.1",
-              "from": "xtend@>=4.0.1 <5.0.0",
-              "resolved": "https://registry.npmjs.org/xtend/-/xtend-4.0.1.tgz"
-            }
-          }
-        },
-        "lodash": {
-          "version": "4.13.1",
-          "from": "lodash@>=4.13.1 <5.0.0",
-          "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.13.1.tgz"
-        },
-        "schemas": {
-          "version": "1.0.0",
-          "from": "gitify-dependencies-test/schemas",
-          "resolved": "git://github.com/gitify-dependencies-test/schemas.git#e19b61af6f42739e12f3ddd2346ed4829b69d3a3",
-          "dependencies": {
-            "errors": {
-              "version": "1.0.0",
-              "from": "gitify-dependencies-test/errors",
-              "resolved": "git://github.com/gitify-dependencies-test/errors.git#c10ed91c99a545466fe630447da649b7ec1705d3",
-              "dependencies": {
-                "xtend": {
-                  "version": "4.0.1",
-                  "from": "xtend@>=4.0.1 <5.0.0",
-                  "resolved": "https://registry.npmjs.org/xtend/-/xtend-4.0.1.tgz"
-                }
-              }
-            }
-          }
-        }
-      }
+    "gitify-dependencies-test-validations": {
+      "version": "1.0.1",
+      "from": "gitify-dependencies-test-validations@>=1.0.1 <2.0.0"
+    },
+    "lodash": {
+      "version": "4.13.1",
+      "from": "lodash@4.13.1",
+      "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.13.1.tgz"
     }
   }
 }

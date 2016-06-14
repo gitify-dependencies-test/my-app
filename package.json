@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/gitify-dependencies-test/my-app#readme",
   "dependencies": {
-    "errors": "gitify-dependencies-test/errors#v1.0.0",
-    "schemas": "gitify-dependencies-test/schemas#v1.0.0",
-    "validations": "gitify-dependencies-test/validations#v1.0.0"
+    "gitify-dependencies-test-errors": "^1.0.1",
+    "gitify-dependencies-test-schemas": "^1.0.1",
+    "gitify-dependencies-test-validations": "^1.0.1"
   }
 }
